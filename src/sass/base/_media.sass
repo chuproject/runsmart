@@ -1,0 +1,51 @@
+
+@media (max-width: 991px)
+    .container
+        padding-right: 15px
+        padding-left: 15px
+    .promo
+        &__wrapper
+            align-items: center
+    .advantages
+        &__wrapper
+            justify-content: space-around
+            flex-wrap: wrap
+        &__item
+            max-width: 219px            
+        
+@media (max-width: 767px)
+    .header
+        flex-wrap: wrap
+        justify-content: space-around
+        min-height: 150px
+    .advantages
+        &__item
+            &:last-child
+                margin-top: 50px
+
+    @media (max-width: 575px) 
+        .header
+            min-height: 220px
+        .title
+            font-size: 26px
+        .promo
+            &__wrapper
+                margin-top: 70px
+            &__header
+                text-align: center
+                font-size: 36px
+                line-height: 1.3em
+            &__subheader
+                text-align: center
+                line-height: 1.3em
+                margin-top: 20px
+                font-size: 22px
+            &__icon
+                font-size: 12px
+        .advantages
+            &__wrapper
+                margin-top: 0
+            &__item
+                margin-top: 50px
+            &__subtitle
+                margin-top: 25px    
